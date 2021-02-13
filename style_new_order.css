@@ -1,0 +1,97 @@
+
+#bx-soa-order.orderform--v1 .bx-soa-section:not(#bx-soa-basket) .bx-soa-section-title-container {
+	padding-top: 16px;
+	padding-bottom: 21px;
+	background: #F8F8F8;
+	border-botom: 1px solid #ECECEC;
+	border-radius: 2px 2px 0 0;
+}
+#bx-soa-order .bx-soa-section .bx-soa-section-content {
+	padding: 28px 84px 25px 84px;
+}
+
+#bx-soa-order.orderform--v1 #bx-soa-delivery,
+#bx-soa-order.orderform--v1 #bx-soa-paysystem {
+	width: 100%;
+}
+#bx-soa-order.orderform--v1 #bx-soa-delivery+#bx-soa-paysystem {
+	margin-left: 0;
+}
+
+.bx-soa-pp-delivery-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+.bx-soa-pp-delivery-cost {
+	margin-right: 8px;
+}
+#bx-soa-order.orderform--v1 #bx-soa-delivery .bx-soa-pp-company-description {
+	width: 100%;
+}
+
+#bx-soa-order #bx-soa-basket .bx-soa-item-table .bx-soa-item-img-block,
+#bx-soa-order #bx-soa-basket .bx-soa-item-table .bx-soa-item-img-block .bx-soa-item-imgcontainer {
+	width: 112px;
+	height: 148px;
+}
+.bx-soa-item-attr {
+	margin-top: 20px;
+	font-size: 14px;
+	line-height: 17px;
+	color: #9B9B9B;
+}
+
+
+#bx-soa-order input[type=email], #bx-soa-order input[type=password], #bx-soa-order input[type=tel], #bx-soa-order input[type=text], #bx-soa-order select, #bx-soa-order textarea,
+#bx-soa-order .bx-soa-coupon-input input[type=text].form-control, #bx-soa-order textarea.form-control {
+	background-color: transparent;
+}
+
+
+
+@media screen and (max-width:750px) {
+
+	#bx-soa-order.orderform--v1 .bx-soa-section:not(#bx-soa-basket) .bx-soa-section-title-container {
+		padding: 16px 16px 16px 56px;
+		background-color: transparent;
+	}
+	#bx-soa-order .bx-soa-section .bx-soa-section-content {
+		padding: 12px 15px;
+	}
+
+	#bx-soa-order .bx-soa-coupon {
+		padding: 15px;
+	}
+	#bx-soa-order #bx-soa-basket .bx-soa-coupon {
+		margin-bottom: 0;
+	}
+
+}
+
+
+
+@media (max-width: 520px) {
+
+	#bx-soa-order #bx-soa-basket .bx-soa-item-table .bx-soa-item-img-block, #bx-soa-order #bx-soa-basket .bx-soa-item-table .bx-soa-item-img-block .bx-soa-item-imgcontainer {
+		width: 82px;
+		height: 132px;
+	}
+	#bx-soa-order #bx-soa-basket .bx-soa-item-table .bx-soa-item-img-block {
+		float: left;
+	}
+
+
+}
+
+
+
+@media (max-width: 450px) {
+
+	.licence_block.filter.label_block.onoff {
+	    width: 92%;
+	}
+
+
+}
